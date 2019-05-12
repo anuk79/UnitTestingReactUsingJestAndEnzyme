@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserView component should render correctly 1`] = `
+<Fragment>
+  <h3>
+    User Details:
+  </h3>
+  <div>
+    <label>
+      First Name: 
+    </label>
+    <span>
+      test firstName
+    </span>
+  </div>
+  <div>
+    <label>
+      Last Name: 
+    </label>
+    <span>
+      test lastName
+    </span>
+  </div>
+</Fragment>
+`;

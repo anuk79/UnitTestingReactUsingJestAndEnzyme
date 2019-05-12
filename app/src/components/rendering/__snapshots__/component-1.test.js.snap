@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component One should render correctly 1`] = `
+<Fragment>
+  <h1>
+    Test heading
+  </h1>
+  <div
+    className="username"
+  >
+    <label>
+      Username
+    </label>
+    <ComponentTwo
+      errorMessage="invalid user"
+      handleChange={[Function]}
+      isError={false}
+      username="testUser"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Component One should render correctly with children 1`] = `
+<ComponentOne>
+  <h1>
+    Test heading
+  </h1>
+  <div
+    className="username"
+  >
+    <label>
+      Username
+    </label>
+    <ComponentTwo
+      errorMessage="invalid user"
+      handleChange={[Function]}
+      isError={false}
+      username="testUser"
+    >
+      <input
+        onChange={[Function]}
+        type="text"
+        value="testUser"
+      />
+    </ComponentTwo>
+  </div>
+</ComponentOne>
+`;

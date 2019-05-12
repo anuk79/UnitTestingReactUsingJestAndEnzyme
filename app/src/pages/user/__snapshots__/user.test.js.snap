@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User component should render correctly when data is fetching 1`] = `
+<LoadingSpinner
+  customClassName="user-loading-spinner"
+/>
+`;
+
+exports[`User component should render correctly when no error and data fetching is done 1`] = `
+<UserView
+  userDetails={Object {}}
+/>
+`;
+
+exports[`User component should render correctly when some error 1`] = `
+<div
+  className="user-error"
+>
+  Some error occurred. Please try again later.
+</div>
+`;

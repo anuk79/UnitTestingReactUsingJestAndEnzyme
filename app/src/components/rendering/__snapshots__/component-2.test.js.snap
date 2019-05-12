@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Two should render correctly 1`] = `
+<Fragment>
+  <input
+    onChange={[Function]}
+    type="text"
+  />
+</Fragment>
+`;
+
+exports[`Component Two should render correctly when error in props 1`] = `
+<Fragment>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="test user name"
+  />
+  <span
+    className="error-message"
+  >
+    test error message
+  </span>
+</Fragment>
+`;
